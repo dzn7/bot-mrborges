@@ -1,0 +1,45 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Autenticação WhatsApp (será montado como volume)
+auth_info/
+
+# Arquivos de configuração local
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Configuração Fly.io (não necessário no Zeabur)
+fly.toml
+.fly/
+
+# Git
+.git/
+.gitignore
+
+# Testes
+__tests__/
+*.test.js
+*.spec.js
+
+# Scripts de teste
+teste-*.js
